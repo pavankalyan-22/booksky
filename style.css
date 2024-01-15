@@ -1,0 +1,115 @@
+.heading{
+    padding: 2%;
+    background-color: rgb(171, 103, 71);
+    border-radius: 5px;
+    color: aliceblue;
+    font-family:sans-serif;
+}
+*{
+    margin: 0%;
+}
+.box{
+    padding: 20px;
+    height: auto;
+    width: 400px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 80px;
+    margin-left: 40px;
+    background-color: black;
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(225, 222, 220);
+}
+.box button{
+    padding: 6px;
+    margin-top: 15px;
+    background-color: bisque;
+    border: none;
+    border-radius: 15px;
+    color:black ;
+}
+.popup-button{
+    border-radius: 100%;
+    border: none;
+    background-color:rgb(171, 103, 71);
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 40px;
+    position: fixed;
+    bottom: 10%;
+    right: 30px;
+}
+.box h1{
+    color:  rgb(183, 104, 61);
+}
+.box h3{
+    color:  rgb(198, 145, 117);
+}
+.bgblur{
+    background-color: black;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    display: none;
+}
+.pop-box{
+    border-radius: 15px;
+    background-color: rgb(171, 103, 71);
+    width: 40%;
+    padding : 40px;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    z-index: 1;
+    display: none;
+}
+.pop-box input{
+    width: 100%;
+    margin-top: 10px;
+    background-color:transparent;
+    padding-top: 19px;
+    font-size: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+    color: aliceblue;
+}
+.pop-box textarea{
+    width: 100%;
+    margin-top: 10px;
+    background-color:transparent;
+    padding: 8px;
+    font-size: 30px;
+    border: none;
+    border : 2px solid black;
+    color: aliceblue;
+}
+.pop-box input::placeholder{
+    color: black;
+}
+.pop-box textarea::placeholder{
+    color: black;
+}
+.pop-box button{
+    background-color:bisque;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+}
+.pop-box input:focus{
+    outline: none;
+}
+.pop-box textarea:focus{
+    outline: none;
+}
